@@ -4,8 +4,8 @@ import time
 
 def bot_login():
     print "Logging in..."
-    r = praw.Reddit(username = "aminsbot",
-                password = "bxa34qlpo",
+    r = praw.Reddit(username = "<username>",
+                password = "<password>",
                 client_id = "ncoI2IWn-B0cOA",
                 client_secret = "yFQINTI6OwuYw2TqqSMcUzN-u7Q",
                 user_agent = "aminsbot private notifier v0.1")
